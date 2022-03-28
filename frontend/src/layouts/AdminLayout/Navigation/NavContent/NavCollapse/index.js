@@ -138,7 +138,7 @@ const NavCollapse = ({ collapse, type }) => {
 };
 
 NavCollapse.propTypes = {
-    collapse: PropTypes.array.isRequired,
+    collapse: PropTypes.object.isRequired,
     type: PropTypes.string.isRequired
 };
 

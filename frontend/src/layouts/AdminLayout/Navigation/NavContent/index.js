@@ -122,7 +122,7 @@ const NavContent = ({ navigation, activeNav }) => {
 };
 
 NavContent.propTypes = {
-    navigation: PropTypes.object.isRequired,
+    navigation: PropTypes.array.isRequired,
     activeNav: PropTypes.string
 };
 
