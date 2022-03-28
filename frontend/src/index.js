@@ -1,17 +1,26 @@
 import React from 'react';
+
+// polyfill for legacy browsers
+import 'react-app-polyfill/ie11';
+import 'react-app-polyfill/stable';
+
+// third party
 import ReactDOM from 'react-dom';
-import './index.css';
+import { ConfigProvider } from './contexts/ConfigContext';
+
+// project imports
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// style + assets
+import './index.scss';
+
+// -----------------------|| REACT DOM RENDER  ||-----------------------//
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <ConfigProvider>
+        <App />
+    </ConfigProvider>,
+    document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
