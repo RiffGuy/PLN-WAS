@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>riffrain</groupId>
-	<artifactId>PLN</artifactId>
+	<artifactId>PLN-WAS</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>PLN</name>
+	<name>PLN-WAS</name>
 	<description>Predict Lotto Number</description>
 	<properties>
 		<java.version>11</java.version>
@@ -75,7 +75,7 @@
 				<artifactId>maven-antrun-plugin</artifactId>
 				<executions>
 					<execution>
-						<phase>generate-resources</phase>
+						<phase>clean</phase>
 						<configuration>
 							<target>
 								<copy todir="${project.build.directory}/classes/public">
