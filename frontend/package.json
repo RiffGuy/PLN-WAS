@@ -2,7 +2,7 @@
   "name": "dashboard-kit-free-react-bootstrap-admin-template",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://dashboardkit.io/react/free",
+  "homepage": "http://localhost:8080/",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
