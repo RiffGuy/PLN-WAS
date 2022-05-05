@@ -1,6 +1,6 @@
 // imports from project
 export const BASENAME = '/';
-export const BASE_URL = '/dashboard/sales';
+export const BASE_URL = '/dashboard/lotto';
 export const BASE_TITLE = ' | DashboardKit Bootstrap 5 Free Admin Template';
 
 // -----------------------|| Application default Configuration ||-----------------------//

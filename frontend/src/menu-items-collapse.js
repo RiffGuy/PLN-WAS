@@ -27,6 +27,12 @@ const menuItems = {
                                     title: 'Analytics',
                                     type: 'item',
                                     url: '/dashboard/analytics'
+                                },
+                                {
+                                    id: 'lotto',
+                                    title: 'Lotto',
+                                    type: 'item',
+                                    url: '/dashboard/lotto'
                                 }
                             ]
                         },

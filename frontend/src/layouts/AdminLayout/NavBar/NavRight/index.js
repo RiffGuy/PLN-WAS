@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 import FeatherIcon from 'feather-icons-react';
 
 // assets
-import avatar2 from 'assets/images/user/avatar-2.jpg';
+import avatar from 'assets/images/user/avatar.jpg';
 
 // -----------------------|| NAV RIGHT ||-----------------------//
 const NavRight = () => (
@@ -31,9 +31,9 @@ const NavRight = () => (
         <ListGroup.Item as="li" bsPrefix=" " className="pc-h-item">
             <Dropdown className="drp-user">
                 <Dropdown.Toggle as="a" variant="link" className="pc-head-link arrow-none me-0">
-                    <img src={avatar2} alt="userimage" className="user-avtar" />
+                    <img src={avatar} alt="userimage" className="user-avtar" />
                     <span>
-                        <span className="user-name">Joseph William</span>
+                        <span className="user-name">RiffRain</span>
                         <span className="user-desc">Administrator</span>
                     </span>
                 </Dropdown.Toggle>

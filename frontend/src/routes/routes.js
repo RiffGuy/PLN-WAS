@@ -25,6 +25,11 @@ const routes = [
         routes: [
             {
                 exact: true,
+                path: '/dashboard/lotto',
+                component: lazy(() => import('../views/dashboard/lotto'))
+            },
+            {
+                exact: true,
                 path: '/dashboard/sales',
                 component: lazy(() => import('../views/dashboard/DashSales'))
             },

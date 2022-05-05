@@ -10,10 +10,25 @@ const menuItems = {
                 {
                     id: 'dashboard',
                     title: 'Dashboard',
-                    type: 'item',
+                    type: 'collapse',
                     icon: 'material-icons-two-tone',
                     iconname: 'home',
-                    url: '/dashboard/sales'
+                    children: [
+                        {
+                            id: 'sales',
+                            title: 'Sales',
+                            type: 'item',
+                            url: '/dashboard/sales',
+                            breadcrumbs: false
+                        },
+                        {
+                            id: 'lotto',
+                            title: 'Lotto',
+                            type: 'item',
+                            url: '/dashboard/lotto',
+                            breadcrumbs: false
+                        }
+                    ]
                 }
             ]
         },
